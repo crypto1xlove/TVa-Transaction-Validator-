@@ -1,0 +1,23 @@
+{
+  "name": "base-transaction-validator",
+  "version": "1.0.0",
+  "description": "A simple transaction validator for the Base network",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web3": "^1.3.6",
+    "hardhat": "^2.0.11"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.2.2",
+    "ethers": "^5.0.31"
+  }
+}
