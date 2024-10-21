@@ -18,3 +18,12 @@ This project allows users to add and validate transactions on the Base network. 
 ### Install Dependencies
 ```bash
 npm install
+```
+### Deploy Smart Contract
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
+### Run Frontend
+```
+npm start
+```
